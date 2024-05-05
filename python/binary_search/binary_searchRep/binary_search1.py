@@ -34,4 +34,4 @@ def binary_search(arr: List[int], target: int):
     
     return -1
 
-binaryTest.test(binary_search, primes)
+binaryTest.test(binary_search)
