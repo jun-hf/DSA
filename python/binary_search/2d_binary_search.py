@@ -74,5 +74,6 @@ class TestSearch(unittest.TestCase):
         self.assertEqual(search(matrix, 60), [2, 3])
     def test_88(self):
         self.assertEqual(search(matrix, 88), -1)
+
 if __name__ == "__main__":
     unittest.main()
